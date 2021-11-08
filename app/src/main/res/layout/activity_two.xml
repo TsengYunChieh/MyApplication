@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#708090">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="510dp">
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="392dp"
+            android:layout_height="71dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="13dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:text="根據教育部建議"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="使用3C產品30分鐘 應休息10分鐘"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="89dp">
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="7dp"
+                tools:layout_editor_absoluteY="140dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分鐘"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="111dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style"
+                android:text="設定使用時間"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="117dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="149dp">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分鐘"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="77dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:text="設定休息時間"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="324dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="216dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteY="341dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="輸入密碼" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="330dp"
+            android:layout_height="157dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="273dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="輸入新密碼" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="再次輸入新密碼" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style"
+                android:text="修改密碼"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="269dp"
+                tools:layout_editor_absoluteY="341dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="331dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="437dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:text="停止運行"
+                    android:textColor="#FFFFFF"
+                    tools:layout_editor_absoluteX="-1dp"
+                    tools:layout_editor_absoluteY="615dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:text="開始執行"
+                    android:textColor="#FFFFFF"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="538dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="550dp">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style"
+                android:text="登出"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="26dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

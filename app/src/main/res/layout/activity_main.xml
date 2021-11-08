@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#708090"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingBottom="@android:dimen/app_icon_size"
+
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="73dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/glasses_5" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="93dp"
+                android:layout_gravity="center"
+                android:text="過度使手機容易造成近視"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="318dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="54dp"
+                    tools:layout_editor_absoluteY="305dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_style"
+                    android:text="設定"
+                    android:textColor="#FFFFFF"
+                    tools:layout_editor_absoluteX="230dp"
+                    tools:layout_editor_absoluteY="305dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="443dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="241dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="請先開啟允許顯示在其他應用程式上層"
+                android:textColor="#FF0000"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="483dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
